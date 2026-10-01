@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nakshatra — Vedic Astrology, Decoded</title>
+<meta name="description" content="Nakshatra — India-first Vedic astrology. Kundli, daily rashifal, panchang, guna milan and premium jyotish insights.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="app-head">
+  <img src="assets/logo.png" alt="Nakshatra logo" class="logo">
+  <div><h1>Nakshatra</h1><p>Vedic astrology, decoded</p></div>
+</header>
+
+<main id="view">
+  <section class="pane" id="pane-kundli">
+    <div class="hero"><img src="assets/hero.png" alt="Night sky over a temple">
+      <div class="hero-t"><h2>Your stars, in plain language</h2><p>Kundli · Rashifal · Milan · Panchang — crafted for India</p></div>
+    </div>
+    <div id="kform-wrap"></div>
+    <div id="kresult"></div>
+    <div class="mandala-div"></div>
+  </section>
+  <section class="pane" id="pane-rashifal" hidden></section>
+  <section class="pane" id="pane-milan" hidden></section>
+  <section class="pane" id="pane-panchang" hidden></section>
+  <section class="pane" id="pane-premium" hidden></section>
+</main>
+
+<nav id="tabs" aria-label="Sections"></nav>
+
+<script src="config.js"></script>
+<script src="astro.js"></script>
+<script src="upi.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
